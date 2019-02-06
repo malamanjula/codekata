@@ -5,11 +5,11 @@ class beg6
     {
         int year;
         boolean leap = false;
-        System.out.print("Input:");
+        System.out.print("Input:\n");
         Scanner in = new Scanner(System.in);
         year=in.nextInt();
         System.out.print("\n"+year+"\n");
-        System.out.println("Output:");
+        System.out.println("Output:\n");
         if(year % 4 == 0)
         {
             if( year % 100 == 0)
