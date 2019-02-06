@@ -10,17 +10,17 @@ class beg1
         System.out.println(number);
         if(number>0)
         {
-            System.out.println("Output:\n");
+            System.out.println("\nOutput:\n");
             System.out.println("Positive");
         }
         else if(number<0)
         {
-            System.out.println("Output:");
+            System.out.println("\nOutput:\n");
             System.out.println("Negative");
         }
         else
         {
-            System.out.println("Output:");
+            System.out.println("\nOutput:\n");
             System.out.println("Zero");
         }
     }
