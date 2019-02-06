@@ -5,9 +5,9 @@ class beg3
    {
 	boolean isVowel=false;;
 	Scanner scanner=new Scanner(System.in);
-	System.out.println("Input:");
+	System.out.print("Input:");
 	char ch=scanner.next().charAt(0); 
-	System.out.println("\n"+ch+"\n");
+	System.out.print("\n"+ch+"\n");
 System.out.println("Output:");
 	scanner.close();
 	switch(ch)
