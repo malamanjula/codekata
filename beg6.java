@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class beg6
+class beg6
 {
     public static void main(String[] args)
     {
