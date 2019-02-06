@@ -5,10 +5,10 @@ class beg4
     {
         char ch;
         Scanner scan = new Scanner(System.in);
-	System.out.print("Input:");
+	System.out.print("Input:\n");
         ch=scan.next().charAt(0);
         System.out.print("\n"+ch+"\n");
-        System.out.println("Output:");
+        System.out.println("Output:\n");
 		if((ch>='a' && ch<='z') || (ch>='A' && ch<='Z'))
         {
             System.out.print("Alphabet");
