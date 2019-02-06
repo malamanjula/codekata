@@ -14,7 +14,7 @@ System.out.println("Output:");
 	{
 	   case 'a' :
 	   case 'e' :
-       case 'i' :
+           case 'i' :
 	   case 'o' :
 	   case 'u' :
 	   case 'A' :
