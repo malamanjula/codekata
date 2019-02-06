@@ -5,10 +5,10 @@ class beg2
     {
         int n;
         Scanner s=new Scanner(System.in);
-        System.out.println("Input:\n");
+        System.out.print("Input:");
         n=s.nextInt();
-        System.out.println(n);
-        System.out.println("Output:\n");
+        System.out.print("\n"+n+"\n");
+        System.out.println("Output:");
         if(n%2==0)
         {
             System.out.println("Even");
