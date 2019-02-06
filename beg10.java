@@ -12,6 +12,6 @@ while(Number>0)
 Number=Number/10;
 Count=Count+1;
 }
-System.out.println(Count)
+System.out.println(Count);
 }
 }
