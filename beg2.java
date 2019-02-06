@@ -1,11 +1,11 @@
 import java.util.Scanner;
-public class beg2
+class beg2
 {
     public static void main(String[] args)
     {
         int n;
         Scanner s=new Scanner(System.in);
-        System.out.print("Input:");
+        System.out.print("Input:\n");
         n=s.nextInt();
         System.out.println(n);
         System.out.println("Output:");
