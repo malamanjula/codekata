@@ -7,7 +7,7 @@ public class beg3
 	Scanner scanner=new Scanner(System.in);
 	System.out.println("Input:");
 	char ch=scanner.next().charAt(0); 
-	System.out.println(ch);
+	System.out.println("\n"+ch+"\n");
 System.out.println("Output:");
 	scanner.close();
 	switch(ch)
