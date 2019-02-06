@@ -5,12 +5,12 @@ class beg1
     {
         int number;
         Scanner s=new Scanner(System.in);
-        System.out.println("Input");
+        System.out.println("Input:\n");
         number=s.nextInt();
         System.out.println(number);
         if(number>0)
         {
-            System.out.println("Output:");
+            System.out.println("Output:\n");
             System.out.println("Positive");
         }
         else if(number<0)
