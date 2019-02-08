@@ -17,8 +17,8 @@ for(int i=2;i<=num;i++)
     }
 }
     if(isPrime)
-    System.out.println("yes");
+      System.out.println("yes");
     else
-    System.out.println("no");
+      System.out.println("no");
 }
 }
