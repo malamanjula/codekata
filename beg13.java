@@ -15,9 +15,10 @@ for(int i=2;i<=num;i++)
     isPrime=false;
     break;
     }
+}
     if(isPrime)
     System.out.println("yes");
     else
     System.out.println("no");
-    }
-    }
+}
+}
