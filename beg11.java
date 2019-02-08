@@ -11,7 +11,7 @@ p=sc.nextLong();
   {
     r=1;
   }
-  else if(n==0&&p=1)
+  else if(n==0&&p>=1)
   {
     r=0;
   }
