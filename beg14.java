@@ -3,7 +3,7 @@ class beg14
 {
 public static void main(String[] args)
 {
-int a,b;
+int a,b,i;
 Scanner in=new Scanner(System.in);
 a=in.nextInt();
 b=in.nextInt();
