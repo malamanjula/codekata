@@ -14,10 +14,11 @@ import java.util.Scanner;
 
    {
 
-       System.out.print((i*input)+"\t");
+       System.out.print(i*input);
+    
 
        i=i+1;
-
+System.out.print(" ");
    } 
 
 }
