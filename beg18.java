@@ -1,24 +1,13 @@
 import java.util.Scanner;  
 
- class Armstrong2 {  
-
-   public static void main(String[] args) {  
-
-       Scanner s = new Scanner(System.in);  
-
-        
-
-       int start = s.nextInt();  
-
-        
-
-       int end = s.nextInt();   
-
-       for (int i = start; i <= end; i++) {  
-
+ class Armstrong2 {
+   public static void main(String[] args) {
+       Scanner s = new Scanner(System.in); 
+       int start = s.nextInt(); 
+       int end = s.nextInt(); 
+       for (int i = start; i <= end; i++) { 
            if (isArmstrong(i)) {  
-
-               System.out.println(i+"\t");  
+               System.out.println(i); 
 
            }  
 
