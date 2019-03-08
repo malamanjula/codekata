@@ -1,20 +1,23 @@
 import java.util.*;
-class factorial
+class palindrome
 {
-public static void main(String[] args)
+public static void main(String args[])
 {
-Scanner scan=new Scanner(System.in);
-int n=scan.nextInt();
-if(n<=100000){
-int arr[]=new int[n];
-for(int i=0;i<n;i++)
+String original, reverse = "";
+Scanner in = new Scanner(System.in);
+original = in.next();
+int length = original.length();
+for (int i = length - 1; i >= 0; i--)
 {
-arr[i]=scan.nextInt();
-}
-for(int j=0;j<n-1;j++)
+reverse += original.charAt(i);
+}  
+if (original.equals(reverse))
 {
-System.out.printf("%d ",Math.max(arr[j],arr[j+1]));
+System.out.println("yes");
 }
+else
+{
+System.out.println("no");
+} 
 }
-}
-}
+} 
