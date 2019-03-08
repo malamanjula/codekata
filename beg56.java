@@ -25,11 +25,11 @@ num2=1;
 }
 if(num1==1&&num2==1)
 {
-System.out.println("yes");
+System.out.println("Yes");
 }
 else
 {
-System.out.println("no");
+System.out.println("No");
 }
 }
 }
