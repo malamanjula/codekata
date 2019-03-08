@@ -17,11 +17,11 @@ flag=1;
 }
 if(flag==1)
 {
-System.out.print("yes");
+System.out.print("no");
 }
 else
 {
-System.out.print("no");
+System.out.print("yes");
 }
 }
 } 
