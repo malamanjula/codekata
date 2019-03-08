@@ -21,7 +21,7 @@ j++;
 }
 for(i=number.length-1;i>=0;i--)
 {
-System.out.print(number[i]+" "\n);
+System.out.print(number[i]+" ");
 }
 }
 }
