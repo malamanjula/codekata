@@ -1,5 +1,5 @@
 import java.util.*;
-class compare
+class comparebig
 {
 public static void main(String args[])
 {
@@ -32,7 +32,7 @@ break;
 }
 if(flg==1)
 {
-System.out.println(str1);
+ System.out.println(str1);
 }
 }
 }
