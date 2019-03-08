@@ -38,8 +38,8 @@ System.out.println("Seven");
 else if(Number==8)
 {
 System.out.println("Eight");
-
-}else if(Number==9)
+}
+else if(Number==9)
 {
 System.out.println("Nine");
 } 
